@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputDataActivity"
+    android:background="@color/leaf"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/txt_input1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Anda"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_input5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="KALORI IN"
+            android:textStyle="italic"
+            android:textSize="19sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+        <TimePicker
+            android:id="@+id/time_picker_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_input6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Waktu"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txt_input7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="waktu"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+   />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:id="@+id/txt_input8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breakfast: "
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"/>
+            <EditText
+                android:id="@+id/edit_input9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Kalori Anda"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:background="@drawable/bingkai3"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/txt_input10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunch: "
+                android:padding="10dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_marginRight="27dp"/>
+            <EditText
+                android:id="@+id/edit_input11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Kalori Anda"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:background="@drawable/bingkai3"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/txt_input12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinner: "
+                android:padding="10dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_marginRight="22dp"/>
+            <EditText
+                android:id="@+id/edit_input23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Kalori Anda"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:background="@drawable/bingkai3"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_input13"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="KALORI OUT"
+            android:textStyle="italic"
+            android:textSize="19sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/txt_input14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Waktu Di Mulai"
+            android:textColor="@color/black"
+           />
+
+        <EditText
+            android:id="@+id/edit_input15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="waktu mulai"
+            android:background="@drawable/bingkai3"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txt_input16"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama workout"
+                android:textColor="@color/black"
+                android:layout_marginRight="125dp"
+               />
+            <TextView
+                android:id="@+id/txt_input17"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kalori terbakar"
+                android:textColor="@color/black"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edit_input18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="nama workout"
+                android:background="@drawable/bingkai3"
+                android:padding="10dp"
+                android:layout_marginRight="80dp"
+                />
+
+            <EditText
+                android:id="@+id/edit_input19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="jumlah kalori"
+                android:background="@drawable/bingkai3"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_input20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Durasi Workout"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/edit_input21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="durasi workout"
+            android:background="@drawable/bingkai3"
+            android:padding="10dp"/>
+
+
+        <Button
+            android:id="@+id/btn_inputSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:textColor="@color/leaf"
+            android:backgroundTint="@color/yellow"
+            android:padding="10dp"
+         />
+    </LinearLayout>
+
+</ScrollView>

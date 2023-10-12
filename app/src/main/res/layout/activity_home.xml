@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:padding="20dp"
+    android:background="@color/dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title_home1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOME"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txt_home22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Hari ini"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/txt_home1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tanggal hari ini"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/txt_home36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Tanggal Target"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/txt_home32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal target"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_home33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berat Target"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_home31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Target berat"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:background="@drawable/bingkai2"
+            />
+
+        <TextView
+            android:id="@+id/txt_home34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sisa Kalori"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_home35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="sisa kalori"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:background="@drawable/bingkai2"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_home4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="KALORI IN"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:textSize="19sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/txt_home13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Waktu Terakhir"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txt_home23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="waktu"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+           />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/txt_home6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breakfast: "
+            android:padding="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txt_home7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kalori Anda"
+            android:textAlignment="center"
+            android:padding="2dp"
+            android:textColor="@color/white"
+            android:background="@drawable/bingkai2"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/txt_home8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunch: "
+                android:padding="10dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_marginRight="27dp"/>
+            <TextView
+                android:id="@+id/txt_home9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kalori Anda"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:padding="2dp"
+                android:background="@drawable/bingkai2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/txt_home10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinner: "
+                android:padding="10dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_marginRight="22dp"/>
+            <TextView
+                android:id="@+id/txt_home11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kalori Anda"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:background="@drawable/bingkai2"
+               />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_home12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="KALORI OUT"
+            android:textStyle="italic"
+            android:textSize="19sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/txt_home24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Nama Workout"
+                android:textColor="@color/black"
+                android:layout_marginRight="80dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_home25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Jumlah Kalori"
+                android:textColor="@color/black"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_home17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="85dp"
+                android:textColor="@color/white"
+                android:background="@drawable/bingkai2"
+                android:hint="nama workout"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_home18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bingkai2"
+                android:hint="jumlah kalori"
+                android:textColor="@color/white"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/txt_home27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Durasi Workout"
+                android:textColor="@color/black"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+                android:id="@+id/txt_home30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bingkai2"
+                android:hint="durasi workout"
+                android:textColor="@color/white"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_homeinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GET INPUT DATA"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/leaf"
+            android:backgroundTint="@color/yellow"
+            android:padding="10dp"
+           />
+    </LinearLayout>
+
+
+</ScrollView>

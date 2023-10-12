@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diet"
+    tools:context=".WelcomingActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txt_w1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="My Calories"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txt_w2"
+        android:background="@drawable/latar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:padding="40dp"
+        android:text="MyCalories aplikasi monitoring kalori yang sangat user-friendly, menawarkan tampilan total kalori yang dikonsumsi mengetahui berat badan dan menghitung asupan kalori harian yang direkomendasikan. Tak hanya itu saja aplikasi ini juga terdapat tujuan diet (cutting, bulking, maintaning). Pada bagian beranda menyediakan gambaran yang jelas tentang berapa banyak  target maksimum kalori yang kamu konsumsi sepanjang hari. Aplikasi ini mampu melacak kemajuan kamu menuju berat badan yang dituju"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_w1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_to_start"
+        android:text="GET STARTED"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/leaf"
+        android:backgroundTint="@color/yellow"
+        android:background="@drawable/latar"
+        android:padding="10dp"
+        />
+</LinearLayout>

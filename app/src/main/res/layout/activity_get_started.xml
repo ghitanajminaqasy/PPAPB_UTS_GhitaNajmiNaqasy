@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GetStartedActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp"
+        android:background="@color/blue">
+
+    <TextView
+        android:id="@+id/edit_s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATA ANDA"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_s2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_s6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usia"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_s3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Berat badan saat ini"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:padding="8dp"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_kg1"
+                android:layout_marginTop="20dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edit_s4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="BB yang diinginkan"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/border"
+                android:padding="8dp"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_kg2"
+                android:layout_marginTop="20dp"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txt_get12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maximum Kalori"
+            android:layout_marginTop="20dp"
+            android:padding="6dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edit_s5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Max Kalori"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_get11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tujuan Diet"
+            android:layout_marginTop="20dp"
+            android:padding="6dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_diet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_get9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Target capaian"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/txt_get10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bingkai"
+            android:padding="8dp"
+            android:hint="tanggal"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <DatePicker
+            android:id="@+id/date_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="calendar"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_getSimpan"
+            android:text="SIMPAN"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="right"
+            android:textColor="@color/leaf"
+            android:backgroundTint="@color/yellow"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_getHitung"
+            android:text="HITUNG"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/leaf"
+            android:backgroundTint="@color/yellow"
+            />
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
